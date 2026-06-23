@@ -1,0 +1,19 @@
+{
+  "name": "demowebshop-playwright-tests",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "test:ci": "npx playwright test --reporter=html --workers=4"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@playwright/test": "^1.42.0",
+    "@types/node": "^20.14.0",
+    "dotenv": "^16.3.1",
+    "typescript": "^5.5.4"
+  }
+}
